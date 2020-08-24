@@ -1,7 +1,8 @@
 # D&D 5e Character Sheet Website
 
-## Basic Idea
-
+### Caleb Long
+### MSSA CAD
+#
 
 When I’m not swamped with work and life, I enjoy playing tabletop board games and RPGs. Often, it can be tedious to keep track of your created characters and all of the sheets for their stats, abilities, inventory, etc. Furthermore, COVID-19 has made it so that all of these games have to be played over the internet. This means everything that was once simple pen and paper is now stored on subpar word documents and PDFs. While these work, they often are hard to find pre-made and can be a hassle to send between players.
 
