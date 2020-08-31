@@ -4,7 +4,7 @@
 ### MSSA CAD
 #
 
-### [Database Diagram](Database Diagram v1.pdf)
+### [Database Diagram] (https://github.com/CalebLong-MSSA/CharacterSheetSite/blob/master/Database%20Diagram%20v1.pdf)
 When I’m not swamped with work and life, I enjoy playing tabletop board games and RPGs. Often, it can be tedious to keep track of your created characters and all of the sheets for their stats, abilities, inventory, etc. Furthermore, COVID-19 has made it so that all of these games have to be played over the internet. This means everything that was once simple pen and paper is now stored on subpar word documents and PDFs. While these work, they often are hard to find pre-made and can be a hassle to send between players.
 
 Thus, I have decided to create a website to do away with the trouble entirely and present it all to users in one website. For initial release, my website will only cover Dungeons and Dragons 5th Edition, as this is currently the most popular tabletop RPG on the market. The main page of the website will prompt users to sign in or register for an account using email and a password. Once registered, users will be given the options to access their character sheets, access shared character sheets in their group, or to form/join a group. Here’s a list of some features:
