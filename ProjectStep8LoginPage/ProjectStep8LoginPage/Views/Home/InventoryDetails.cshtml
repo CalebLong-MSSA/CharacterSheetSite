@@ -1,0 +1,35 @@
+﻿@model ProjectStep8LoginPage.Models.Inventory
+@{
+   Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width" />
+   <title> D&D Inv </title>
+   <link href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+         rel="stylesheet" />
+</head>
+
+<body>
+
+   <div class="text-center">
+      <h1>D&D Character Sheet Site</h1>
+      <hr />
+      <h2>Inventory Details</h2>
+   </div>
+   <hr />
+
+   
+   <div class="container">
+      <h3>Inventory</h3>
+      <p style="border:1px solid black">@Model.Invent</p>
+      <h3>Armor Value: <span style="margin-top:50px;border:1px solid black;padding:2px">@Model.AV</span> </h3>
+   </div><br />
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿@model ProjectStep8LoginPage.Models.Login
+@{
+   Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width" />
+   <title> Temp Hub </title>
+   <link href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+         rel="stylesheet" />
+</head>
+
+<body>
+
+   <div class="text-center">
+      <h1>D&D Character Sheet Site</h1>
+      <h2>Temporary Hub</h2>
+   </div>
+   <hr />
+
+   <div style="margin-left:100px">
+      This Page will be serving as a temporary hub for the website.<br />
+      Links to the different pages will follow...
+   </div>
+   <div style="margin-left:100px">
+      <a asp-action="Login">Login Page</a><br />
+      <a asp-action="Inventory">Inventory</a><br />
+      <a asp-action="InventoryEdit">Inventory Edit</a><br />
+      <a asp-action="InventoryDetails">Inventory Details</a><br />
+   </div>
+</body>
+</html>

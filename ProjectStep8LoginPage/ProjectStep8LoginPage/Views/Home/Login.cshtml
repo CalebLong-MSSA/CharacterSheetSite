@@ -1,0 +1,39 @@
+﻿@model ProjectStep8LoginPage.Models.Login
+@{
+   Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width" />
+   <title> D&D CSS </title>
+   <link href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+         rel="stylesheet" />
+</head>
+
+<body>
+
+   <div align="center">
+      <h1>D&D Character Sheet Site</h1>
+   </div>
+   <hr />
+
+   <div style="border:2px solid black;background-color:#f1f1f1;padding:16px;width:300px">
+      <form asp-action="Login" method="post">
+         <div align="left">
+            <label asp-for="Username"><b> Username: </b></label>
+            <input asp-for="Username" placeholder="Username" required>
+         </div>
+         <div align="left">
+            <label asp-for="Password"><b> Password: </b></label>
+            <input asp-for="Password" placeholder="Password" required>
+         </div>
+         <div>
+            <button style="margin-left:215px;margin-top:10px" type="submit">Login</button>
+         </div>
+      </form>
+   </div>
+</body>
+</html>
